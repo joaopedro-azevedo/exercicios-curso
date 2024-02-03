@@ -1,0 +1,26 @@
+/* .paragrafo-padrao {
+    background-color: #F5F5F5;
+    margin: 40px;
+    padding: 20px;
+}
+
+.paragrafo-destaque {
+    background-color: #F0CCE2;
+    margin: 40px;
+    padding: 20px;
+} */
+
+/* Tinha feito a parte de cima, não está errado, porém podemos usar a propriedade de mais de uma classe para encurtar e não deixar nosso código repetitivo.  */
+
+.texto {
+    margin: 40px;
+    padding: 20px;
+}
+
+.paragrafo-padrao {
+    background-color: #F5F5F5;
+}
+
+.paragrafo-destaque {
+    background-color: #F0CCE2;
+}
