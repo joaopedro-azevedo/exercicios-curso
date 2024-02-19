@@ -1,0 +1,28 @@
+@media (max-width:786px) {
+    .menu{
+        max-height: 100%;
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 50px;
+    }
+
+    .logo .logo-text{
+        font-size: 40px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    .navbar .nav-link{
+        font-size: 40px;
+    }
+
+    .navbar .nav-button{
+        font-size: 18px;
+    }
+
+
+}
