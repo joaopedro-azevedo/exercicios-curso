@@ -1,58 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 body{
-    font-family: 'Manrope', sans-serif;
-    height: 100vh;
+    font-family: 'Manrope';
     font-weight: 800;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
     background-color: var(--background-color);
 }
 
-.container .card{
-    background-color: var(--advice-card-color);
-    width: 500px;
-    height: 350px;
-    border-radius: 20px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 35px;
-    text-align: center;
-    padding: 50px 15px; 
-    
-}
-
-.advice-number{
-    color: var(--advice-dice-color);
-    font-size: 15px;
-    letter-spacing: 3px;
-}
-
-.advice-text{
-    color: var(--text-color);
-    font-size: 28px;
-}
-
-.icon-dice{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50% , -235%);
+.card{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+}
+
+.advice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+}
+
+.advice .advice-id{
+    margin-top: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--advice-dice-color);
+}
+
+.advice .advice-text{
+    font-size: 23px;
+    padding: 23px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.advice .advice-update{
     width: 60px;
     height: 60px;
+    border-radius: 50%;
     background-color: var(--advice-dice-color);
-    border-radius: 50px;
+    transform: translateY(50%);
+}
+
+.advice .advice-update:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
 }
 
 
