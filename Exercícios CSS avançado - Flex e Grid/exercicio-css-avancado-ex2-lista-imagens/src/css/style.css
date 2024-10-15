@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    font-family: 'Public Sans';
+}
+
+.container .lista{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.lista img{
+    height: 100%;
+    width: 100%;
+} 
+
+.lista .description{
+    transform: translateY(-200%);
+    color: var(--white);
+    margin-left: 19px;
+}
+
+.description .art{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.description .artist{
+    font-weight: 300;
+    font-size: 17px;
+}

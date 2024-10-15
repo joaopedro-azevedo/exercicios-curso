@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 347px;
+    width: 655px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 21px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.25);
+}
+
+.container .img{
+    height: 293px;
+    width: 278px;
+    position: absolute;
+    transform: translateX(-90px);
+}
+
+.container .faq{
+    height: 100%;
+    width: 100%;
+    padding: 60px 37px 60px 228px;
+}
+
+.container .faq .question .up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.container .faq .title{
+    font-weight: 700;
+    font-size: 2.5rem;
+    /* margin-bottom: 14px;
+    margin-top: 60px; */
+}
+
+.container .faq .title-question{
+    font-weight: 500;
+    font-size: 1.7rem;
+    /* margin-bottom: 14px; */
+}
+
+.container .faq .text{
+    display: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.container .faq .text.show{
+    display: block;
+}
+
+.faq .question .arrow{
+    height: 8.86px;
+    width: 15px; 
+    background-size: cover;
+}
+
+.on-arrow{
+    background-image: url(../images/arrow-on.png);
+}
+
+.off-arrow{
+    background-image: url(../images/arrow-off.png);
+}
