@@ -39,22 +39,21 @@ main{
     padding-left: 225px;
 }
 
-.container .faq .question .up{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
 .container .faq .title{
     font-weight: 700;
     font-size: 2.5rem;
 }
 
-.container .faq .title-question{
+.faq .question .title-question{
     font-weight: 500;
     font-size: 1.7rem;
+    width: 90%;
+    transition: 0.2s ease;
+    padding-bottom: 15px;
+}
+
+.faq .question .title-question:hover{
+    color: #f47c57;
 }
 
 .container .faq .text{
@@ -64,20 +63,24 @@ main{
     margin-bottom: 15px;
 }
 
-.container .faq .text.show{
+.container .faq .questions .question.show .text{
     display: block;
 }
 
-.faq .question .arrow{
-    height: 8.86px;
-    width: 15px; 
-    background-size: cover;
-}
-
-.on-arrow{
-    background-image: url(../images/arrow-on.png);
-}
-
-.off-arrow{
+.faq .question{
+    cursor: pointer;
     background-image: url(../images/arrow-off.png);
+    background-repeat: no-repeat;
+    background-position: top 8px right 0;
+    background-size: 12px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.questions .question:last-child {
+    border-bottom: none;
+}
+
+.questions .question.show{
+    background-image: url(../images/arrow-on.png);
 }
