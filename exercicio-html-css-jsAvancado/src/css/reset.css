@@ -1,0 +1,11 @@
+/* Torna a fonte padrão para usar o rem, onde 1rem = 10px */
+html{
+	font-size: 62.5%
+}
+
+*{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2.8rem;
+    background: var(--darkBlue);
+}
+
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--darkBlue);
+}
+
+main .card{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--darkGrayishBlue);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card .card-title{
+    color: var(--neonGreen);
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+    margin: 20px 0px;
+}
+
+.card .advice-text{
+    color: var(--ligthCyan);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 95%;
+}
+
+.card .divider{
+    margin-top: 20px;
+}
+
+.card .dice-button{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: var(--neonGreen);
+    transform: translateY(90%);
+}
+
+.card .dice-button :hover{
+    cursor: pointer;
+    box-shadow: 12px 12px 12px var(--neonGreen) inset,
+    -10px -10px 10px var(--darkGrayishBlue) inset;
+}
+
+.card .dice-button .img-dice{
+    height: 20px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
